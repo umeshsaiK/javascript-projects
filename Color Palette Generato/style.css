@@ -1,0 +1,58 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    height: 100vh;
+}
+
+
+#box{
+    width: 250px;
+    height: 150px;
+    background-color:#a31c55 ;
+    margin: 10px;
+    display:flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#hex-color{
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+#btn{
+/* background-color: aquamarine; */
+    padding: 8px;
+}
+
+#click{
+    padding: 8px 15px;
+    width: 100px;
+    border: none;
+ background-color: blue;
+ color: whitesmoke;
+ font-weight: bold;
+ font-size: 13px;
+ cursor: pointer;
+}
+
+#click:hover{
+ background-color: rgb(33, 155, 171);
+    
+}
+
+#click:active {
+    background-color: rgb(171, 33, 139);
+}
+
+
+
