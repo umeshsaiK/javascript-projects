@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: azure;
+}
+
+#container {
+  background-color: rgb(202, 215, 225);
+  /* text-align: center; */
+  margin: 100px auto;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  max-width: 600px;
+  /* Adding box shadows below */
+  box-shadow: 0 4px 8px rgba(220, 43, 152, 0.941); /* Subtle, soft shadow */
+}
+
+#head1 {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.space {
+  margin: 15px 0;
+}
+
+input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+button {
+  
+  cursor: pointer;
+  background-color: rgb(8, 136, 165);
+  /* box-sizing: border-box; */
+  width: auto;
+  font-size: 15px;
+  padding: 10px;
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  transition: background-color 0.25s;
+  /* Adding a subtle box shadow to the button on hover */
+  box-shadow: 0 2px 4px rgba(78, 188, 225, 0.878);
+}
+
+button:hover {
+  background-color: rgb(11, 43, 107);
+  /* Keeping the subtle box shadow on hover */
+  box-shadow: 0 3px 6px rgba(193, 63, 200, 0.722);
+}
